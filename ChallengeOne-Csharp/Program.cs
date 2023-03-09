@@ -14,8 +14,8 @@ namespace ChallengeOne_Csharp
             Console.WriteLine(myString.Trim());
             Console.Write("Enter a value to Sub, in digits: ");
             int sub1 = Int32.Parse(Console.ReadLine());
+            Console.Write("Enter a value to Sub, in digits, again: ");
             int sub2 = Int32.Parse(Console.ReadLine());
-
             Console.WriteLine(myString.Substring(sub1, sub2));
             Console.ReadKey();
         }
