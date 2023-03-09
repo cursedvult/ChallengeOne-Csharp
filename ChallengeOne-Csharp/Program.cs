@@ -12,7 +12,11 @@ namespace ChallengeOne_Csharp
             Console.WriteLine(myString.ToUpper());
             Console.WriteLine(myString.ToLower());
             Console.WriteLine(myString.Trim());
-            Console.WriteLine(myString.Substring(1));
+            Console.Write("Enter a value to Sub, in digits: ");
+            int sub1 = Int32.Parse(Console.ReadLine());
+            int sub2 = Int32.Parse(Console.ReadLine());
+
+            Console.WriteLine(myString.Substring(sub1, sub2));
             Console.ReadKey();
         }
     }
